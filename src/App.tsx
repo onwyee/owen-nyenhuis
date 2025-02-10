@@ -76,7 +76,7 @@ function App() {
                             HTML, CSS, JavaScript, SocketIO, SQL
                         </div>
                     </div>
-                    <div className="project-pane">
+                    <div className="project-pane" onClick={() => window.location.href="https://onwyee.github.io/calendar/"}>
                         <div className="project-title">
                             Calendar
                         </div>
@@ -96,10 +96,10 @@ function App() {
                     </div>
                     <div className="project-pane">
                         <div className="project-title">
-                            Meridio - Work In Progress
+                            Mock Tetris (Work in Progress)
                         </div>
                         <div className="project-description">
-                            This is the current project I'm working on, a mock of Twitter/X
+                            This is the current project I'm working on, come back soon to see it in action
                         </div>
                     </div>
                   </div>
