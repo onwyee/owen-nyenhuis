@@ -47,7 +47,7 @@ function App() {
             </label>
         
        
-      <TypeAnimation ref={aboutRef} className='greeting' sequence={['',2000,'Owen Nyenhuis',2000,'Owen Nyenhuis, Software Developer',2000,'Owen Nyenhuis, Graphic Designer',2000,'Owen Nyenhuis, Web Developer',5000]} wrapper="span" speed={50} style={{fontSize: '4em'}} repeat={Infinity} >Owen Nyenhuis, Software Developer</TypeAnimation>
+      <TypeAnimation ref={aboutRef} className='greeting' sequence={['',2000,'Owen Nyenhuis',2000,'Owen Nyenhuis, Software Developer',2000,'Owen Nyenhuis, Graphic Designer',2000,'Owen Nyenhuis, Web Developer',5000]} wrapper="span" speed={50} style={{fontSize: '4em'}} repeat={Infinity} ></TypeAnimation>
       <div ref={projectsRef} className="projects">
       <TypeAnimation sequence={['',2000,'Projects',10000]} wrapper="span" speed={50} style={{fontSize: '2em'}} repeat={Infinity} ></TypeAnimation>
       <div className="project-panes">
