@@ -28,6 +28,17 @@
   border: 0.2em solid #000000;
 }
 
+html:has(.chk:checked) .dropdown {
+  background-color: #000000;  /* Dark background color */
+  color: #39FF14;  /* Text color for dark mode */
+  border: 0.2em solid #39ff14;
+}
+
+html:has(.chk:checked) .nav-item:hover {
+  background-color: #39ff14;  /* Dark background color */
+  color: #000000;  /* Text color for dark mode */
+  
+}
 
 .nav-item:hover {
   background-color: #000000;

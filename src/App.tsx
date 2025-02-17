@@ -33,7 +33,7 @@ function App() {
                 <div className="nav-item" onClick={() => scrollToSection(aboutRef)}>About</div>
                 <div className="nav-item" onClick={() => scrollToSection(projectsRef)}>Projects</div>
                 <div className="nav-item" onClick={() => scrollToSection(contactRef)}>Contact</div>
-                <div className="nav-item" onClick={() => window.open("/OwenNyenhuisResume.pdf", "_blank")}>Resume</div>
+                <div className="nav-item" onClick={() => window.open("/owen-nyenhuis/OWNResume.pdf", "_blank")}>Resume</div>
             </div>
             </div>
             <label className="switch">
